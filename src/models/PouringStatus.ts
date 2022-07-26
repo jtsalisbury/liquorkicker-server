@@ -1,6 +1,7 @@
 export interface IngredientStatus {
     ingredient_id: number;
     time_left_sec: number;
+    max_time_sec: number;
 }
 
 export interface PouringStatus {

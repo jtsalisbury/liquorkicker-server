@@ -136,7 +136,8 @@ class PourManager {
  
                 startIngredientStatus.push({
                     ingredient_id: ingredient.base.id,
-                    time_left_sec: time
+                    time_left_sec: time,
+                    max_time_sec: time
                 });
             })
 

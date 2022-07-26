@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/app.js",
+    "start": "tsc && copyfiles ./assets/* dist/assets && node dist/app.js",
     "start-dev": "nodemon src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jtsalisbury/liquorkicker-server#readme",
   "dependencies": {
+    "copyfiles": "^2.4.1",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "socket.io": "^4.5.1"

@@ -1,5 +1,5 @@
 import { Drink } from "../models/Drink";
-import { VODKA, ORANGE_JUICE, RUM, COKE, LIME_JUICE, TEQUILA, CRANBERRY } from "./ingredients";
+import { VODKA, ORANGE_JUICE, RUM, COKE, LIME_JUICE, TEQUILA, CRANBERRY, TEST } from "./ingredients";
 
 const Drinks: Drink[] = [
     {
@@ -166,6 +166,102 @@ const Drinks: Drink[] = [
 
         ] // TODO: add simple syrup 0.5, 1 oz cointreau
     },
+    {
+        id: 0.1,
+        name: 'Vodka Shot',
+        image: '',
+        ingredients: [
+            {
+                base: VODKA,
+                ounces: 1
+            }
+
+        ]
+    },
+    {
+        id: 0.2,
+        name: 'Orange Juice',
+        image: '',
+        ingredients: [
+            {
+                base: ORANGE_JUICE,
+                ounces: 1
+            }
+
+        ]
+    },
+    {
+        id: 0.3,
+        name: 'Tequila Shot',
+        image: '',
+        ingredients: [
+            {
+                base: TEQUILA,
+                ounces: 1
+            }
+
+        ]
+    },
+    {
+        id: 0.4,
+        name: 'Rum Shot',
+        image: '',
+        ingredients: [
+            {
+                base: RUM,
+                ounces: 1
+            }
+
+        ]
+    },
+    {
+        id: 0.5,
+        name: 'Lime Juice',
+        image: '',
+        ingredients: [
+            {
+                base: LIME_JUICE,
+                ounces: 1
+            }
+
+        ]
+    },
+    {
+        id: 0.6,
+        name: 'Coke',
+        image: '',
+        ingredients: [
+            {
+                base: COKE,
+                ounces: 1
+            }
+
+        ]
+    },
+    {
+        id: 0.7,
+        name: 'Cranberry',
+        image: '',
+        ingredients: [
+            {
+                base: CRANBERRY,
+                ounces: 1
+            }
+
+        ]
+    },
+    {
+        id: 0.8,
+        name: 'Test',
+        image: '',
+        ingredients: [
+            {
+                base: TEST,
+                ounces: 1
+            }
+
+        ]
+    }
 ]
 
 export default Drinks;

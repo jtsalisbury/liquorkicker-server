@@ -64,6 +64,13 @@ const CRANBERRY: BaseIngredient = {
     pump_id: 6
 }
 
-const Ingredients = [VODKA, ORANGE_JUICE, TEQUILA, RUM, LIME_JUICE, COKE, CRANBERRY];
+const TEST: BaseIngredient = {
+    id: 6,
+    name: 'Test',
+    image: '',
+    pump_id: 7
+}
 
-export { Ingredients, PUMP_TO_PIN, VODKA, ORANGE_JUICE, TEQUILA, RUM, LIME_JUICE, COKE, CRANBERRY };
+const Ingredients = [VODKA, ORANGE_JUICE, TEQUILA, RUM, LIME_JUICE, COKE, CRANBERRY, TEST];
+
+export { Ingredients, PUMP_TO_PIN, VODKA, ORANGE_JUICE, TEQUILA, RUM, LIME_JUICE, COKE, CRANBERRY, TEST };

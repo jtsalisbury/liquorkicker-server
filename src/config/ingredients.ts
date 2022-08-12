@@ -65,7 +65,7 @@ const CRANBERRY: BaseIngredient = {
 }
 
 const TEST: BaseIngredient = {
-    id: 6,
+    id: 7,
     name: 'Test',
     image: '',
     pump_id: 7

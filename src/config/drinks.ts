@@ -169,7 +169,7 @@ const Drinks: Drink[] = [
     {
         id: 0.1,
         name: 'Vodka Shot',
-        image: '',
+        image: 'vodka.jpg',
         ingredients: [
             {
                 base: VODKA,
@@ -178,7 +178,7 @@ const Drinks: Drink[] = [
 
         ]
     },
-    {
+    /*{
         id: 0.2,
         name: 'Orange Juice',
         image: '',
@@ -189,11 +189,11 @@ const Drinks: Drink[] = [
             }
 
         ]
-    },
+    },*/
     {
         id: 0.3,
         name: 'Tequila Shot',
-        image: '',
+        image: 'tequila.jpg',
         ingredients: [
             {
                 base: TEQUILA,
@@ -205,7 +205,7 @@ const Drinks: Drink[] = [
     {
         id: 0.4,
         name: 'Rum Shot',
-        image: '',
+        image: 'bacardi.jpg',
         ingredients: [
             {
                 base: RUM,
@@ -214,7 +214,7 @@ const Drinks: Drink[] = [
 
         ]
     },
-    {
+    /*{
         id: 0.5,
         name: 'Lime Juice',
         image: '',
@@ -261,7 +261,7 @@ const Drinks: Drink[] = [
             }
 
         ]
-    }
+    }*/
 ]
 
 export default Drinks;

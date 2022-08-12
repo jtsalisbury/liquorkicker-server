@@ -193,7 +193,7 @@ const Drinks: Drink[] = [
     {
         id: 0.3,
         name: 'Tequila Shot',
-        image: 'tequila.jpg',
+        image: 'patron.jpg',
         ingredients: [
             {
                 base: TEQUILA,

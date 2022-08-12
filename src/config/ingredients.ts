@@ -1,5 +1,16 @@
 import { BaseIngredient } from "../models/Ingredient";
 
+const PUMP_TO_PIN = {
+    0: 11,
+    1: 13,
+    2: 15,
+    3: 16,
+    4: 31,
+    5: 33,
+    6: 35,
+    7: 37
+}
+
 const VODKA: BaseIngredient = {
     id: 0,
     name: 'Vodka',
@@ -55,4 +66,4 @@ const CRANBERRY: BaseIngredient = {
 
 const Ingredients = [VODKA, ORANGE_JUICE, TEQUILA, RUM, LIME_JUICE, COKE, CRANBERRY];
 
-export { Ingredients, VODKA, ORANGE_JUICE, TEQUILA, RUM, LIME_JUICE, COKE, CRANBERRY };
+export { Ingredients, PUMP_TO_PIN, VODKA, ORANGE_JUICE, TEQUILA, RUM, LIME_JUICE, COKE, CRANBERRY };

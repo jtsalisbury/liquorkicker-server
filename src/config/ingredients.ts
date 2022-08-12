@@ -1,14 +1,14 @@
 import { BaseIngredient } from "../models/Ingredient";
 
 const PUMP_TO_PIN = {
-    0: 11,
-    1: 13,
-    2: 15,
-    3: 16,
-    4: 31,
-    5: 33,
-    6: 35,
-    7: 37
+    0: 17,//11,
+    1: 27,//13,
+    2: 22,//15,
+    3: 23,//16,
+    4: 6,//31,
+    5: 13,//33,
+    6: 19,//35,
+    7: 26//37
 }
 
 const VODKA: BaseIngredient = {

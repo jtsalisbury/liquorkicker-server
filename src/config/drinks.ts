@@ -1,5 +1,5 @@
 import { Drink } from "../models/Drink";
-import { VODKA, ORANGE_JUICE, RUM, COKE, LIME_JUICE, TEQUILA, CRANBERRY, TEST } from "./ingredients";
+import { VODKA, ORANGE_JUICE, RUM, COKE, LIME_JUICE, TEQUILA, CRANBERRY, LEMONADE, Ingredients } from "./ingredients";
 
 const Drinks: Drink[] = [
     {
@@ -167,6 +167,36 @@ const Drinks: Drink[] = [
         ] // TODO: add simple syrup 0.5, 1 oz cointreau
     },
     {
+        id: 9,
+        name: 'Vodka Lemonade',
+        image: 'vodka_lemon.jpg',
+        ingredients: [
+            {
+                base: VODKA,
+                ounces: 2
+            },
+            {
+                base: LEMONADE,
+                ounces: 6
+            }
+        ]
+    },
+    {
+        id: 10,
+        name: 'Tequila Lemonade',
+        image: 'tequila_lemon.jpg',
+        ingredients: [
+            {
+                base: TEQUILA,
+                ounces: 2
+            },
+            {
+                base: LEMONADE,
+                ounces: 6
+            }
+        ]
+    },
+    {
         id: 0.1,
         name: 'Vodka Shot',
         image: 'vodka.jpg',
@@ -214,6 +244,18 @@ const Drinks: Drink[] = [
 
         ]
     },
+    {
+        id: 0.001,
+        name: 'System Clean',
+        image: '',
+        ingredients: Ingredients.map(ingr => {
+            return {
+                base: ingr,
+                ounces: 1
+            }
+        })
+    },
+
     /*{
         id: 0.5,
         name: 'Lime Juice',
@@ -252,11 +294,11 @@ const Drinks: Drink[] = [
     },
     {
         id: 0.8,
-        name: 'Test',
+        name: 'Lemonade',
         image: '',
         ingredients: [
             {
-                base: TEST,
+                base: LEMONADE,
                 ounces: 1
             }
 

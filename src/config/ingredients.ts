@@ -22,14 +22,14 @@ const TEQUILA: BaseIngredient = {
     id: 2,
     name: 'Tequila',
     image: '',
-    pump_id: 2
+    pump_id: 1
 }
 
 const RUM: BaseIngredient = {
     id: 3,
     name: 'Rum',
     image: '',
-    pump_id: 3
+    pump_id: 2
 }
 
 
@@ -40,7 +40,7 @@ const ORANGE_JUICE: BaseIngredient = {
     id: 1,
     name: 'Orange Juice',
     image: '',
-    pump_id: 1
+    pump_id: 3
 }
 
 const LIME_JUICE: BaseIngredient = {

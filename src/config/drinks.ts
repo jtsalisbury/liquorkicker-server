@@ -29,10 +29,6 @@ const Drinks: Drink[] = [
             {
                 base: COKE,
                 ounces: 4
-            },
-            {
-                base: LIME_JUICE,
-                ounces: 0.6
             }
         ]
     },
@@ -70,7 +66,7 @@ const Drinks: Drink[] = [
             },
             {
                 base: LIME_JUICE,
-                ounces: 1
+                ounces: 0.3
             },
             {
                 base: COKE,
@@ -124,10 +120,6 @@ const Drinks: Drink[] = [
             {
                 base: CRANBERRY,
                 ounces: 1.5
-            },
-            {
-                base: LIME_JUICE,
-                ounces: 0.5
             }
         ] // TODO: add simple syrup
     },

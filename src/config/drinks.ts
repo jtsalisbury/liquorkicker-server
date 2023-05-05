@@ -18,10 +18,6 @@ const Drinks: Drink[] = [
             {
                 base: LIME_JUICE,
                 ounces: 0.75
-            },
-            {
-                base: WATERMELON,
-                ounces: 3
             }
         ] // TODO: add triple sec 1 oz
     },

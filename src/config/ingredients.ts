@@ -18,12 +18,6 @@ const VODKA: BaseIngredient = {
     pump_id: 0
 }
 
-const TEQUILA: BaseIngredient = {
-    id: 2,
-    name: 'Tequila',
-    image: '',
-    pump_id: 1
-}
 
 const RUM: BaseIngredient = {
     id: 3,
@@ -32,8 +26,27 @@ const RUM: BaseIngredient = {
     pump_id: 2
 }
 
+const TRIPLE_SEC: BaseIngredient = {
+    id: 8,
+    name: 'Triple Sec',
+    image: '',
+    pump_id: 0
+}
+
+const TEQUILA: BaseIngredient = {
+    id: 2,
+    name: 'Tequila',
+    image: '',
+    pump_id: 1
+}
 
 
+const SIMPLE_SYRUP: BaseIngredient = {
+    id: 9,
+    name: 'Simple Syrup',
+    image: '',
+    pump_id: 2
+}
 
 
 const ORANGE_JUICE: BaseIngredient = {
@@ -50,6 +63,21 @@ const LIME_JUICE: BaseIngredient = {
     pump_id: 4
 }
 
+const WATERMELON: BaseIngredient = {
+    id: 10,
+    name: 'Watermelon Juice',
+    image: '',
+    pump_id: 5
+}
+
+const CRANBERRY: BaseIngredient = {
+    id: 6,
+    name: 'Cranberry Juice',
+    image: '',
+    pump_id: 6
+}
+
+
 const COKE: BaseIngredient = {
     id: 5,
     name: 'Coke',
@@ -57,11 +85,11 @@ const COKE: BaseIngredient = {
     pump_id: 5
 }
 
-const CRANBERRY: BaseIngredient = {
-    id: 6,
-    name: 'Cranberry',
+const STRAWBERRY: BaseIngredient = {
+    id: 11,
+    name: 'Strawberry Juice',
     image: '',
-    pump_id: 6
+    pump_id: 7
 }
 
 const LEMONADE: BaseIngredient = {
@@ -71,6 +99,6 @@ const LEMONADE: BaseIngredient = {
     pump_id: 7
 }
 
-const Ingredients = [VODKA, ORANGE_JUICE, TEQUILA, RUM, LIME_JUICE, COKE, CRANBERRY, LEMONADE];
+const Ingredients = [VODKA, ORANGE_JUICE, TEQUILA, RUM, LIME_JUICE, COKE, CRANBERRY, LEMONADE, STRAWBERRY, WATERMELON, TRIPLE_SEC, SIMPLE_SYRUP];
 
-export { Ingredients, PUMP_TO_PIN, VODKA, ORANGE_JUICE, TEQUILA, RUM, LIME_JUICE, COKE, CRANBERRY, LEMONADE };
+export { Ingredients, PUMP_TO_PIN, VODKA, ORANGE_JUICE, TEQUILA, RUM, LIME_JUICE, COKE, CRANBERRY, LEMONADE, STRAWBERRY, WATERMELON, TRIPLE_SEC, SIMPLE_SYRUP };

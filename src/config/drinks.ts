@@ -1,8 +1,122 @@
 import { Drink } from "../models/Drink";
-import { VODKA, ORANGE_JUICE, RUM, COKE, LIME_JUICE, TEQUILA, CRANBERRY, LEMONADE, Ingredients } from "./ingredients";
+import { VODKA, ORANGE_JUICE, RUM, COKE, LIME_JUICE, TEQUILA, CRANBERRY, LEMONADE, Ingredients, TRIPLE_SEC, WATERMELON, STRAWBERRY } from "./ingredients";
 
 const Drinks: Drink[] = [
     {
+        id: 0,
+        name: 'Margarita',
+        image: 'marg.jpg',
+        ingredients: [
+            {
+                base: TEQUILA,
+                ounces: 1.5
+            },
+            {
+                base: TRIPLE_SEC,
+                ounces: 1
+            },
+            {
+                base: LIME_JUICE,
+                ounces: 0.75
+            },
+            {
+                base: WATERMELON,
+                ounces: 3
+            }
+        ] // TODO: add triple sec 1 oz
+    },
+    {
+        id: 1,
+        name: 'Watermelon Margarita',
+        image: 'watermelon_marg.jpg',
+        ingredients: [
+            {
+                base: TEQUILA,
+                ounces: 1
+            },
+            {
+                base: WATERMELON,
+                ounces: 3
+            },
+            {
+                base: TRIPLE_SEC,
+                ounces: 0.5
+            }
+        ] // TODO: add triple sec 1 oz
+    },
+    {
+        id: 2,
+        name: 'Orange Margarita',
+        image: 'tequila_sunrise.jpg',
+        ingredients: [
+            {
+                base: TEQUILA,
+                ounces: 1.5
+            },
+            {
+                base: ORANGE_JUICE,
+                ounces: 1.5
+            },
+            {
+                base: TRIPLE_SEC,
+                ounces: 1
+            },
+            {
+                base: LIME_JUICE,
+                ounces: 1
+            }
+        ] // TODO: add triple sec 1 oz
+    },
+    {
+        id: 3,
+        name: 'Strawberry Margarita',
+        image: 'strawberry_marg.jpg',
+        ingredients: [
+            {
+                base: TEQUILA,
+                ounces: 2
+            },
+            {
+                base: LIME_JUICE,
+                ounces: 1
+            },
+            {
+                base: TRIPLE_SEC,
+                ounces: 0.5
+            },
+            {
+                base: ORANGE_JUICE,
+                ounces: 0.25
+            },
+            {
+                base: STRAWBERRY,
+                ounces: 3
+            }
+        ] // TODO: add triple sec 1 oz
+    },
+    {
+        id: 4,
+        name: 'Cranberry Margarita',
+        image: 'cranberry_marg.jpg',
+        ingredients: [
+            {
+                base: TEQUILA,
+                ounces: 1.5
+            },
+            {
+                base: CRANBERRY,
+                ounces: 4.5
+            },
+            {
+                base: TRIPLE_SEC,
+                ounces: 1
+            }
+        ] // TODO: add triple sec 1 oz
+    },
+]
+
+
+    /*{
         id: 0,
         name: 'Screwdriver',
         image: 'screwdriver.jpg',
@@ -200,7 +314,7 @@ const Drinks: Drink[] = [
 
         ]
     },
-    /*{
+    {
         id: 0.2,
         name: 'Orange Juice',
         image: '',
@@ -211,7 +325,7 @@ const Drinks: Drink[] = [
             }
 
         ]
-    },*/
+    },
     {
         id: 0.3,
         name: 'Tequila Shot',
@@ -295,7 +409,7 @@ const Drinks: Drink[] = [
             }
 
         ]
-    }*/
-]
+    }
+]*/
 
 export default Drinks;

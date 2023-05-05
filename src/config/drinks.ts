@@ -101,7 +101,7 @@ const Drinks: Drink[] = [
             },
             {
                 base: CRANBERRY,
-                ounces: 4.5
+                ounces: 3
             },
             {
                 base: TRIPLE_SEC,
